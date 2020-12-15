@@ -38,27 +38,22 @@ h1 {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
 }
-img {
-  visibility: hidden;
-}
+
 li {
   text-align: left;
   font-family: "Barlow", sans-serif;
   font-size: 100%;
 }
-.seg-two {
-  position: relative;
-  background-image: url("./paper.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: auto;
-  width: 70%;
-}
 .desciption {
   text-align: center;
-  position: absolute;
   margin: auto;
   width: 70%;
   top: 25%;
   left: 15%;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+  color: white;
+  background-color: red;
 }

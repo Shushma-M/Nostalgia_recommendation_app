@@ -95,9 +95,7 @@ export default function App() {
         <button className="mainButtons" value="Outdoor" onClick={menuHandler}>
           Outdoor
         </button>
-        {/* <button value="Travel" onClick={menuHandler}>
-        Travel
-      </button> */}
+        <p> Note: Click on game to know more </p>
       </div>
       <div>
         {gamesData.map((item) => {
@@ -112,17 +110,14 @@ export default function App() {
           );
         })}
       </div>
-      <div className="seg-two">
-        <img src="./paper.jpg" alt="bg"></img>
-        <div className="desciption">
-          {descData.map((item) => {
-            return (
-              <ul>
-                <li>{item}</li>
-              </ul>
-            );
-          })}
-        </div>
+      <div className="desciption">
+        {descData.map((item) => {
+          return (
+            <ul>
+              <li>{item}</li>
+            </ul>
+          );
+        })}
       </div>
     </div>
   );
