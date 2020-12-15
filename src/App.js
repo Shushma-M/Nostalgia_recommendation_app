@@ -101,6 +101,7 @@ export default function App() {
         {gamesData.map((item) => {
           return (
             <button
+              key={item}
               className="secondaryButtons"
               value={item}
               onClick={descHandler}
@@ -113,7 +114,7 @@ export default function App() {
       <div className="desciption">
         {descData.map((item) => {
           return (
-            <ul>
+            <ul key={item}>
               <li>{item}</li>
             </ul>
           );
@@ -122,13 +123,3 @@ export default function App() {
     </div>
   );
 }
-
-// {gamesData.map((item) => {
-//   return (
-//     <ul>
-//     <li >
-//       {item}
-//     </li>
-//     </ul>
-//   );
-// })}
